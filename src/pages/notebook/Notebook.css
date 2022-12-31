@@ -1,0 +1,35 @@
+#notebook p {
+  margin: 0;
+}
+
+#notebook .title-main {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.vertical-timeline-element-date {
+  color: var(--darkestBlue) !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+
+@media screen and (max-width: 1169px) {
+  .vertical-timeline-element-date {
+    font-weight: 500 !important;
+    font-size: 17px !important;
+  }
+
+  #notebook .title-main {
+    text-align: center;
+  }
+}
+
+.vertical-timeline-element-icon {
+  overflow: hidden;
+}
+
+.vertical-timeline-element-icon img {
+  width: 100%;
+  height: auto;
+}

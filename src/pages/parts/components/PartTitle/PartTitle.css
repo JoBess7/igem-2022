@@ -1,0 +1,20 @@
+.parts-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.parts-title span {
+  font-style: normal !important;
+}
+
+.parts-title > div {
+  font-weight: 700;
+  line-height: 25px !important;
+  font-size: 40px;
+}
+
+.parts-title span {
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: none;
+}

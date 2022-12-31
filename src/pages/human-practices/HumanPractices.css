@@ -1,0 +1,76 @@
+.human-practices-fig1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.human-practices-fig1 div {
+  max-width: 600px;
+}
+
+.human-practices-sub {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+.human-practices-fig2 {
+  display: flex;
+  justify-content: center;
+}
+
+.human-practices-fig2 div {
+  max-width: 500px;
+}
+
+.human-practices-top {
+  padding: 0px 45px 100px 45px;
+  max-width: 95%;
+  max-width: 1000px;
+  align-self: center;
+}
+
+.human-practices-bottom-text {
+  max-width: 1000px;
+  color: var(--white);
+  align-self: center;
+  padding: 50px 45px 0 45px;
+}
+
+.human-practices-bottom-text p,
+.human-practices-bottom-text li {
+  font-weight: 300;
+}
+
+.human-practices-bottom-text li {
+  font-size: 17px;
+}
+
+.human-practices-bottom-text b {
+  font-weight: 500;
+}
+
+.human-practices-bottom-box {
+  border-radius: 10px;
+  background-color: var(--lightBlue);
+  padding: 5px 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: black;
+  text-align: justify;
+}
+
+.pad1 {
+  padding: 10px;
+}
+
+.padp {
+  padding: 20px;
+}
+
+.human-practices-bottom-text .references {
+  margin-bottom: 40px;
+}

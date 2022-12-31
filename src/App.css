@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --lightBlue: #c2eded;
+  --darkBlue: #013455;
+  --darkestBlue: #031d38;
+
+  --lightGreen: #218c7a;
+  --darkGreen: #1a716a;
+  --darkestGreen: #125559;
+
+  --white: #f2f7fa;
+
+  --lightOrange: #fea82f;
+  --darkOrange: #ff8b00;
+  --darkestOrange: #e35f00;
+
+  --textLight: #f2f7fa;
+  --textDark: #031d38;
+  --textGray: #e6eaec;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Crimson Pro', serif;
+  color: var(--darkestBlue);
+}
+
+a {
+  text-decoration: none;
+  color: var(--textLight);
+}
+
+.one-line {
+  white-space: nowrap;
+}
+
+p,
+li {
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 15px;
+}
+
+li {
+  list-style: decimal;
+}
+
+sub,
+sup {
+  line-height: 0;
+}

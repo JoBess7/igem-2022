@@ -1,0 +1,36 @@
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-indicator-arrow img {
+  width: 20px;
+}
+
+.scroll-indicator-dots {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-indicator-dots div {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--darkBlue);
+}
+
+.scroll-indicator-shown {
+  background-color: var(--lightOrange);
+}
+
+.si-d + .si-d {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .scroll-indicator {
+    display: none;
+  }
+}

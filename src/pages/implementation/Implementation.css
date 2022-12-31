@@ -1,0 +1,48 @@
+.implementation-ol li ul li {
+  list-style: disc;
+}
+
+.implementation-fig1 {
+  max-width: 500px;
+  align-self: center;
+}
+
+.implementation-fig1 .image-with-caption {
+  margin: 0;
+  box-shadow: none;
+  background-color: transparent !important;
+  margin-top: 20px;
+}
+
+.implementation-fig1 .image-caption {
+  background-color: var(--darkestBlue);
+}
+
+.implementation-ul-2 li {
+  list-style: disc;
+}
+
+.implementation-colored {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  background-color: var(--darkestGreen);
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.implementation-colored p {
+  margin: 0;
+  font-weight: 200;
+  color: var(--textGray);
+}
+
+.implementation-fig2 {
+  align-self: center;
+  max-width: 700px;
+}
+
+.implementation-fig3 {
+  align-self: center;
+  max-width: 800px;
+}

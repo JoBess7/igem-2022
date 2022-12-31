@@ -1,0 +1,47 @@
+.parts-accordion-name {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+.parts-accordion-name span {
+  text-decoration: underline;
+  margin-right: 15px;
+}
+
+.parts-accordion-part {
+  word-break: break-all;
+  font-weight: 200;
+  color: rgb(228, 227, 227);
+  font-size: 15px;
+  font-family: 'Courier New';
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.copy-button {
+  border: 1px solid var(--darkestBlue);
+  border-radius: 4px;
+  text-decoration: none !important;
+  transition: all 0.1s;
+  cursor: pointer;
+  height: 28px;
+  background-color: var(--darkestGreen);
+  color: var(--white);
+}
+
+.copy-button:hover {
+  transform: scale(1.05);
+}
+
+.toasts {
+  font-family: 'Rubik', sans-serif;
+  text-transform: none;
+  font-weight: 400;
+  top: 60px;
+}
+
+:root {
+  --toastify-color-success: var(--darkestBlue) !important;
+  --toastify-color-progress-light: var(--darkBlue) !important;
+}

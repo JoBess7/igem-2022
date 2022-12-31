@@ -1,0 +1,25 @@
+.page-link {
+  margin: 3px;
+  color: var(--darkestBlue);
+  position: relative;
+  width: min-content;
+  cursor: pointer;
+}
+
+.page-link:hover span {
+  opacity: 0.3;
+  height: 100%;
+  background-color: var(--lightOrange);
+}
+
+.page-link span {
+  transition: all 0.1s ease-in-out;
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.5;
+  left: 0;
+  height: 3px;
+  background-color: var(--darkOrange);
+}

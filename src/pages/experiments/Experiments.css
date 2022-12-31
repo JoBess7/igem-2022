@@ -1,0 +1,64 @@
+.experiments {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.experiment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.experiment-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.experiment-section > .expandable,
+.experiment table {
+  margin-top: 10px;
+}
+
+.experiment > div {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.experiment table {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.experiment table {
+  border-collapse: collapse;
+}
+
+.experiment table tr th {
+  border: 1px solid var(--darkBlue);
+  padding: 5px;
+  margin: 0;
+  width: 20px !important;
+}
+
+.experiment table td {
+  font-weight: 300;
+  padding: 5px;
+  border: 1px solid var(--darkBlue);
+}
+
+@media screen and (max-width: 700px) {
+  .experiment table {
+    transform: scale(80%);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .experiment table {
+    transform: scale(57%);
+  }
+}

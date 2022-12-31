@@ -1,0 +1,51 @@
+.image-with-caption {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: var(--lightGreen);
+  border-radius: 6px;
+  box-shadow: 0px 30px 60px rgba(3, 29, 56, 0.25);
+  margin: 40px 0;
+}
+
+.image-with-caption img {
+  border-radius: 2px;
+  width: 100%;
+  height: auto;
+}
+
+.image-caption > span {
+  font-weight: 600;
+  font-size: 21px !important;
+  margin-right: 10px;
+}
+
+.image-caption {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.image-with-caption {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+  text-transform: none;
+  color: black;
+}
+
+.image-with-caption div {
+  padding: 10px;
+  color: rgb(216, 212, 212);
+}
+
+.image-has-background {
+  background-color: var(--white);
+}
+
+.image-caption .text-ref {
+  font-weight: 500;
+  font-size: 18px !important;
+  margin: 0 !important;
+  line-height: 18px;
+}

@@ -1,0 +1,60 @@
+.expandable {
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  height: 50px;
+  background-color: var(--lightGreen);
+  max-width: 1000px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.expanded {
+  height: 700px;
+}
+
+.expanded div img {
+  transform: rotateX(180deg);
+}
+
+.expandable:hover {
+  background-color: var(--darkGreen);
+}
+
+.expandable-title {
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  color: var(--textGray);
+  font-weight: 500;
+  font-size: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expandable-title img {
+  transition: all 0.3s;
+  height: 10px;
+  width: auto;
+}
+
+.expandable-frame {
+  width: 100%;
+  height: calc(100% - 60px);
+  box-sizing: border-box;
+}
+
+.expandable-frame embed {
+  height: 100%;
+  width: 100%;
+}
+
+.expandable-frame a {
+  position: absolute;
+  right: 30px;
+}

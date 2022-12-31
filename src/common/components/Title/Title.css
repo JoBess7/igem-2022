@@ -1,0 +1,38 @@
+.title-main {
+  font-size: 50px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.title-sub {
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 31px;
+  color: #f88000 !important;
+}
+
+.title-mid {
+  font-size: 44px;
+}
+
+.title-main,
+.title-sub {
+  text-transform: none !important;
+  font-style: italic;
+}
+
+.title-revert {
+  color: var(--white) !important;
+}
+
+@media screen and (max-width: 800px) {
+  .title-main {
+    font-size: 35px;
+  }
+
+  .title-sub {
+    font-size: 26px;
+  }
+}

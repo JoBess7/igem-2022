@@ -1,0 +1,90 @@
+.accordion {
+  width: 100%;
+  background-color: var(--darkBlue);
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: transform 0.1s;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.accordion-title span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+
+.accordion-title {
+  color: var(--textGray);
+  font-size: 25px;
+  display: flex;
+  text-transform: none;
+  justify-content: space-between;
+  height: 50px;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 600;
+  line-height: 40px;
+  width: calc(100% - 40px);
+  align-items: center;
+}
+
+.accordion-title img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.4s;
+  transform: rotateX(0deg);
+}
+
+.accordion-expanded .accordion-title img {
+  transform: rotateX(180deg);
+}
+
+.accordion-children {
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  height: 0;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  text-transform: none;
+  font-size: 20px;
+  color: var(--textGray);
+  flex-direction: column;
+}
+
+.accordion-children p,
+.accordion-children li,
+.accordion-children-invis p,
+.accordion-children li {
+  font-weight: 200 !important;
+}
+
+.accordion-children ol {
+  margin: 0;
+}
+
+.accordion-expanded .accordion-children {
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .accordion-title {
+    font-size: 20px;
+  }
+}
+
+.accordion-light {
+  background: linear-gradient(115.87deg, #218c7a 14.58%, #56b4a5 100%);
+}
+
+.accordion:hover {
+  transform: scale(1.01);
+}
+
+.accordion-light a {
+  color: var(--white);
+}
