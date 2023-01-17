@@ -1,6 +1,7 @@
 # Team ULaval 2022 Wiki
 
-This is the iGEM repository of team ULaval for the edition of 2022.
+This is the iGEM repository of team ULaval for the edition of 2022. Find the original repo here: 
+[https://gitlab.igem.org/2022/ulaval](https://gitlab.igem.org/2022/ulaval)
 
 Images, photos, icons and fonts are stored on `static.igem.wiki` using [uploads.igem.org](https://uploads.igem.org), and Videos are embedded from [iGEM Video Universe](https://video.igem.org).
 
